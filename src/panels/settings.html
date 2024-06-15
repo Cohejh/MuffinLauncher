@@ -1,0 +1,128 @@
+<div class="container">
+    <div class="nav-settings">
+        <p>Settings</p>
+        <div class="nav-box">
+            <div id="account" class="nav-settings-btn active-settings-BTN">ACCOUNTS</div>
+            <div id="java" class="nav-settings-btn">JAVA</div>
+            <div id="resolution" class="nav-settings-btn">RESOLUTION</div>
+            <div id="launcher" class="nav-settings-btn">LAUNCHER</div>
+            <div id="save" class="nav-settings-btn">GO BACK</div>
+        </div>
+    </div>
+
+    <div id="account-tab" class="container-settings active-container-settings">
+        <div class="titre-tab">Accounts</div>
+
+        <div class="accounts-list content-scroll">
+            <div class="account" id="add">
+                <div class="add-profile">
+                    <div class="icon-account-add"></div>
+                </div>
+                <div class="add-text-profile">Add an Account</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="java-tab" class="container-settings content-scroll">
+        <div class="titre-tab">RAM Allocation</div>
+        <div class="settings-elements-box">
+            <div class="setting-text">
+                This will let you allocate more or less ram to your game. More RAM means the game will run better and you will get higher performance. 4GB is recommended for most systems.<br><br>
+                However, if you allocate more RAM that your computer has, your computer may crash.<br><br>
+                <b>It is recommended that you do not allocate more than 50% of your avaliable RAM.</b><br><br>
+                <b>- Maximum RAM:</b> This is the maximum amount you want to allocate to your computer. It is strongly recommended that you do not allocate more than 50% of your avaliable RAM.<br><br>
+                <b>- Minimum RAM:</b> This is the minimum amount of RAM you wish to allocate.
+            </div>
+            <div class="settings-elements content-evenly">
+                <div class="memory-slider" min="0.5" max="8" step="0.5">
+                    <div class="slider-touch-left">
+                        <span value="0 GB"></span>
+                    </div>
+                    <div class="slider-touch-right">
+                        <span value="0 GB"></span>
+                    </div>
+                    <div class="slider-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="ram-info-block">
+                    <b>You have a total of <span id="total-ram">0 GB</span> RAM.</b><br>
+                    <b>You have a total of <span id="free-ram">0 GB</span> RAM avaliable.</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="titre-tab">Java Runtime Environment</div>
+        <div class="settings-elements-box">
+            <div class="setting-text">
+                The Launcher uses its own version of Java, from Mojang.<br>
+                This version can be found in the directory:<br><span class="java-path-txt"></span><br>
+                However, you can specify your own executable if you want. If you do not know what you are doing, then do not change.
+            </div>
+            <div class="settings-elements content-evenly">
+                <input type="text" class="java-path-input-text" disabled>
+                <input type="file" class="java-path-input-file" accept="application/octet-stream" />
+                <div class="java-path-box">
+                    <div class="java-path-set java-path-btn">Change</div>
+                    <div class="java-path-reset java-path-btn">Reset</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resolution-tab" class="container-settings">
+        <div class="titre-tab">Minecraft Resolution</div>
+        <div class="settings-elements-box">
+            <div class="setting-text">
+                Set your Minecraft window resolution on start-up. The reccomended resolution is 1280 x 720 for most systems.
+            </div>
+            <div class="settings-elements content-center">
+                <div class="input-size-element">
+                    <input type="number" class="width-size input-resolution">
+                    <div class="size-cross"></div>
+                    <input type="number" class="height-size input-resolution">
+                </div>
+                <div class="size-reset size-btn">Reset</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="launcher-tab" class="container-settings content-scroll">
+        <div class="titre-tab">Downloads</div>
+        <div class="settings-elements-box">
+            <div class="setting-text">
+                This sets the maximum amount of files that can be downloaded in parallel. Please note that changing this value may drastically reduce download speed.
+            </div>
+            <div class="settings-elements content-center">
+                <input type="number" class="max-files input-max-files">
+                <p>Files</p>
+                <div class="max-files-reset max-files-btn">Reset</div>
+            </div>
+        </div>
+
+        <div class="titre-tab">Launch Settings</div>
+        <div class="settings-elements-box">
+            <div class="setting-text">
+                You can choose what happens to the launcher and the game, if one or the other is closed.
+            </div>
+
+            <div class="settings-elements content-evenly close-box">
+                <div class="close-launcher active-close close-btn">Close the Launcher once Minecraft launches.</div>
+                <div class="close-none close-btn">Keep the Launcher running.</div>
+                <div class="close-all close-btn">Close the game if the Launcher is closed.</div>
+            </div>
+        </div>
+
+        <!-- <div class="titre-tab">Environnement INTEL</div>
+        <div class="settings-elements-box">
+            <div class="setting-text">
+                pour les jouer avec les proseceurs apple silicon 
+            </div>
+
+            <div class="settings-elements content-evenly close-box">
+                <div class="close-launcher close-btn">Environnement INTEL</div>
+                <div class="close-none close-btn">Environnement SILICON</div>
+            </div>
+        </div> -->
+    </div>
+</div>
