@@ -81,26 +81,12 @@ class Index {
                     target: [{
                         target: "nsis",
                         arch: "x64"
-                    },
-                    {
-                        target: "msi",
-                        arch: "x64"
-                    },
-                    {
-                        target: "portable",
-                        arch: "x64"
                     }]
                 },
                 nsis: {
                     oneClick: true,
                     allowToChangeInstallationDirectory: false,
                     createDesktopShortcut: true,
-                    runAfterFinish: true
-                },
-                msi: {
-                    oneClick: true,
-                    createDesktopShortcut: true,
-                    createStartMenuShortcut: true,
                     runAfterFinish: true
                 },
                 mac: {
