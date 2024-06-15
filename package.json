@@ -3,7 +3,7 @@
     "preductname": "MuffinLauncher",
     "productname": "MuffinLauncher",
     "version": "1.0.0",
-    "description": "A lightweight custom Minecraft Launcher.",
+    "description": "A lightweight custom Minecraft Launcher",
     "main": "src/app.js",
     "author": {
         "name": "COHEJH",
