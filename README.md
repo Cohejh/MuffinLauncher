@@ -1,7 +1,7 @@
 <img src="resources/logo.png">
 
 # MuffinLauncher 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Cohejh/MuffinLauncher/total?style=for-the-badge) ![GitHub License](https://img.shields.io/github/license/Cohejh/MuffinLauncher?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/Cohejh/MuffinLauncher?style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/Cohejh/MuffinLauncher?style=for-the-badge)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Cohejh/MuffinLauncher/total?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/Cohejh/MuffinLauncher?style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/Cohejh/MuffinLauncher?style=for-the-badge)
 
 A Lightweight, ElectronJS-powered Minecraft Launcher.
 <b>Downloads <a href="https://github.com/Cohejh/MuffinLauncher/releases">Here</a></b>
